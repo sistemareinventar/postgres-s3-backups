@@ -8,9 +8,9 @@ services:
     dockerfilePath: ./Dockerfile
     autoDeploy: false
     envVars:
-      - key: dpg-cvdvoefnoe9s73ejbmag-a
+      - key: DATABASE_URL
         fromDatabase:
-          name: reinventar_9bmz
+          name: reinventar
           property: connectionString
       # pick the region closest to your database
       # For example, us-west-2 for the Oregon region
