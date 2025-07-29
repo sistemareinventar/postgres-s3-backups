@@ -8,9 +8,9 @@ services:
     dockerfilePath: ./Dockerfile
     autoDeploy: false
     envVars:
-      - key: DATABASE_URL
+      - key: dpg-cvdvoefnoe9s73ejbmag-a
         fromDatabase:
-          name: postgresql://reinventar_9bmz_user:g8RqAUbTb3eLYY14ZOXYAbnQThOnfUAw@dpg-cvdvoefnoe9s73ejbmag-a.oregon-postgres.render.com/reinventar_9bmz
+          name: reinventar_9bmz
           property: connectionString
       # pick the region closest to your database
       # For example, us-west-2 for the Oregon region
